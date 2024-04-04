@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+    <script src="https://unpkg.com/@solana/wallet-adapter-base@latest/lib/index.iife.min.js"></script>
+    <script src="https://unpkg.com/@solana/wallet-adapter-react@latest/lib/index.iife.min.js"></script>
+    <script src="https://unpkg.com/@solana/wallet-adapter-phantom@latest/lib/index.iife.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Phantom Wallet Connection</title>
+    
+  </head>
+  <body>
+    <h1>Phantom Wallet Connection</h1>
+    <button id="connectWallet" onclick="connectWallet()">Connect Wallet</button>
+    <button id="disconnectWallet" onclick="disconnectWallet()" style="display: none;">Disconnect Wallet</button>
+    <div id="walletInfo"></div>
+    
+  </body>
+</html>

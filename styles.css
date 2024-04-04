@@ -1,0 +1,40 @@
+        body {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          min-height: 100vh;
+          padding: 2rem;
+          font-family: Arial, sans-serif;
+        }
+  
+        h1 {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+  
+        button {
+          background-color: #007bff;
+          color: white;
+          padding: 0.5rem 1rem;
+          border: none;
+          border-radius: 0.25rem;
+          font-size: 1rem;
+          cursor: pointer;
+          margin-bottom: 1rem;
+        }
+  
+        #walletInfo {
+          font-size: 1rem;
+          margin-top: 1rem;
+        }
+  
+        @media (max-width: 600px) {
+          button {
+            font-size: 0.8rem;
+            padding: 0.3rem 0.6rem;
+          }
+  
+          #walletInfo {
+            font-size: 0.8rem;
+          }
+        }
